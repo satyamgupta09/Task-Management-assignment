@@ -211,12 +211,11 @@ export default function Tasks() {
 
                 <th>Deadline</th>
 
-                {/* ONLY MANAGER */}
+                {/* managr*/}
                 {role === 'manager' && (
                   <th>Assignment</th>
                 )}
 
-                {/* ONLY MANAGER */}
                 {role === 'manager' && (
                   <th>Set Deadline</th>
                 )}
