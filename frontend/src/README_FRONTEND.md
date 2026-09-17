@@ -1,2 +1,0 @@
-
-CSS done by ChatGPT
