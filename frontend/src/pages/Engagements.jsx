@@ -266,7 +266,7 @@ export default function Engagements() {
         </div>
       )}
 
-      {/* MANAGER CREATE / EDIT */}
+      {/*manager*/}
       {role === 'manager' && (
         <div className="card">
 
@@ -281,7 +281,7 @@ export default function Engagements() {
             onSubmit={handleSubmit}
           >
 
-            {/* CLIENT */}
+            {/* client */}
             <label>
               Client
 
@@ -316,7 +316,7 @@ export default function Engagements() {
 
             </label>
 
-            {/* SERVICE */}
+            {/* service */}
             <label>
               Service Type
 
@@ -349,7 +349,7 @@ export default function Engagements() {
 
             </label>
 
-            {/* TYPE */}
+            {/* tye */}
             <label>
               Type
 
@@ -375,7 +375,7 @@ export default function Engagements() {
 
             </label>
 
-            {/* PERIOD */}
+            {/* priod */}
             <label>
               Period
 
@@ -422,7 +422,7 @@ export default function Engagements() {
         </div>
       )}
 
-      {/* ENGAGEMENT LIST */}
+      {/* engagement */}
       <div className="card">
 
         <div className="card-header">
